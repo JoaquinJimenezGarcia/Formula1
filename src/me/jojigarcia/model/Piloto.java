@@ -63,9 +63,9 @@ public class Piloto {
         return "Piloto{" +
                 "dorsal=" + dorsal +
                 ", nombre='" + nombre + '\'' +
-                ", nacionalidad=" + nacionalidad +
-                ", escudería=" + escudería +
-                ", tipo=" + tipo +
+                ", nacionalidad=" + nacionalidad.getNacionalidad() +
+                ", escudería=" + escudería.getEscuderia() +
+                ", tipo=" + tipo.getTipo() +
                 '}';
     }
 }
