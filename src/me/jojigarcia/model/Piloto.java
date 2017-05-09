@@ -65,6 +65,7 @@ public class Piloto {
                 ", nombre='" + nombre + '\'' +
                 ", nacionalidad=" + nacionalidad.getNacionalidad() +
                 ", escudería=" + escudería.getEscuderia() +
+                ", posicion=" + escudería.getPosicion() +
                 ", tipo=" + tipo.getTipo() +
                 '}';
     }
